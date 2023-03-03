@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+body{
+  font-family: DM Sans, sans-serif;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);}
+#header{
+  padding: 40px 0;
+}
+.header-logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-nav{
+  margin-left: 10rem;
+}
+.header-nav a{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #F9FAFB;
+  padding: 0 15px;
+}
+.header-logo button{
+  width: 132px;
+  height: 42px;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  border-radius: 5px;
+  border: none;
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #F9FAFB;
+  cursor: pointer;
+}
+#hero{
+  padding: 100px ;
+}
+.hero-logo h1{
+  font-family: 'DM Sans',sans-serif;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 84px;
+  letter-spacing: 0.02em;
+  background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.07);
+  padding-bottom: 20px;
+}
+.hero-logo p{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  color: #E5E7EB;
+  padding-bottom: 30px;
+  opacity: 0.8;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.07);
+}
+.hero-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-logo button{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #F9FAFB;
+  width: 135px;
+  height: 61px;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  border-radius: 6px;
+  border: none;
+}
+.hero-box{
+  display: flex;
+
+}
+.hero-box h4{
+  padding: 20px 10px;
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #F9FAFB;
+}
+.hero-box h1{
+  color: #FFFFFF;
+  padding: 0 20px;
+}
