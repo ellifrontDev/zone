@@ -9,11 +9,13 @@ a{
   width: 1140px;
   margin: 0 auto;
 }
-body{
+body {
   font-family: DM Sans, sans-serif;
-  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);}
-#header{
-  padding: 40px 0;
+  background: #0a142d
+
+}#header{
+   /*background-image: url("./img/man.svg");*/
+   padding: 40px 0;
 }
 .header-logo{
   display: flex;
@@ -106,4 +108,299 @@ body{
 .hero-box h1{
   color: #FFFFFF;
   padding: 0 20px;
+}
+#service{
+}
+.service-logo h1{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+.service-logo p{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 40px;
+}
+.service-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.service-block{
+  margin:10px 30px;
+  text-align: center;
+  width: 370px;
+  height: 336px;
+  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  box-shadow: 0 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+}
+.service-block h3{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.service-block p{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+#care{
+  padding: 100px 0;
+}
+.care-logo{
+  display: flex;
+  align-items: center;
+}
+.care-logo h1{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+.care-logo p{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+.care-logo button{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+  width: 99px;
+  height: 31px;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+#meet{
+
+}
+.meet-logo h1{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+.meet-logo p{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.meet-block{
+  width: 270px;
+  height: 266px;
+  background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+  box-shadow: 0 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+  text-align: center;
+  padding-top: 30px;
+}
+.meet-block img{
+  padding-top: 20px;
+}
+.meet-block h3{
+  font-family: 'DM Sans',sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+}
+.meet-block p{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+.meet-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2563EB;
+}
+.meet-icons h6{
+ font-size: 20px;
+  padding: 0 5px;
+}
+.meet-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#get{
+  padding: 120px 0;
+}
+.get-block{
+  width: 1170px;
+  height: 295px;
+  background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+  box-shadow: 0 22px 18px rgba(0, 0, 0, 0.05);
+  border-radius: 34px;
+  text-align: center;
+}
+.get-block h1{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 40px;
+}
+.get-block p{
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+  padding-bottom: 30px;
+}
+.get-block input{
+  width: 860px;
+  height: 80px;
+  background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+  border-radius: 70px;
+  border: none;
+  padding-left: 5rem;
+  font-family: 'Rubik',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+.get-block button{
+  width: 196px;
+  height: 60px;
+  background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+  opacity: 0.9;
+  border-radius: 70px;
+  border: none;
+  padding-bottom: 8px;
+  font-family: 'Rubik',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+#footer{
+  padding: 60px 0;
+}
+.footer-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo img{
+  padding-bottom: 10px;
+}
+.icons{
+  display: flex;
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.icons h3,p{
+  padding: 5px 5px;
+}
+.footer-icons{
+  display: flex;
+  color: #E5E7EB;
+}
+.footer-icons h4{
+  padding: 5px 10px;
+}
+.footer-title h4{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px 0;
+}
+#last{
+  padding: 50px;
+}
+.last-width{
+  width: 1325px;
+  height: 1px;
+  background: #969696;
+  opacity: 0.2;
+}
+.last-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.last-logo h1{
+  font-family: 'Rubik',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+}
+.last-title p{
+  font-family: 'DM Sans',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.8);
 }
